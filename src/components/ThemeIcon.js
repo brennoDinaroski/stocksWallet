@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { MoonIcon } from "@heroicons/react/solid";
 import ThemeContext from '../context/ThemeContext';
 
-const Themecon = () => {
+const ThemeIcon = () => {
   const {darkMode, setDarkMode } = 
   useContext(ThemeContext)
 
@@ -29,4 +29,4 @@ const Themecon = () => {
   )
 }
 
-export default Themecon
+export default ThemeIcon
