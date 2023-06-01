@@ -36,7 +36,6 @@ export const fetchQuote = async (stockSymbol) => {
     return await response.json();
 }
 
-
 export const fetchHistoricalData = async(
     stockSymbol, 
     resolution, 

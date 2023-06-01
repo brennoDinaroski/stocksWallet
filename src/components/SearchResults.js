@@ -21,7 +21,7 @@ const SearchResults = ({ results }) => {
               ${darkMode
               ? "hover:bg-indigo-600" 
               : "hover:bg-indigo-200"
-              }`}
+              } transition duration-300`}
               onClick={() => {
                 setStockSymbol(item.symbol);
               }}
